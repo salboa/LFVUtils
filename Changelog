@@ -1,0 +1,130 @@
+2018-11-25 Antonio.Salvucci@CERN.ch
+    * Ported to CMake
+    * Added new Powheg+Pythia8 ttbar sample
+
+2018-04-04 Antonio.Salvucci@CERN.ch
+    * Updated tester tool
+    * Tagging LFVUtils-00-01-06
+
+2018-03-20 Antonio.Salvucci@CERN.ch
+    * Added Pythia kFact for Zprime signals
+    * Tagging LFVUtils-00-01-05
+
+2017-06-02 Antonio.SAlvucci@CERN.ch
+    * Small fix in DY/Z->ll kFactor
+    * replaced particle->m() with true mass value
+    * Tagging LFVUtils-00-01-04
+
+2017-06-02 Antonio.Salvucci@CERN.ch
+    * Small fix in DY/Z->ll overlap removal
+
+2017-04-23 Antonio.Salvucci@CERN.ch
+    * Updated samples normalizations
+    * Tagging LFVUtils-00-01-03
+
+2017-03-29 Antonio.Salvucci@CERN.ch
+    * Added Powheg DY samples
+    * Added Sherpa ttbar MB samples
+    * Added Sherpa Diboson lvlv samples
+    * Updated DY kfactor
+    * Updated cross sections
+    * bug fixes
+    * Tagging LFVUtils-00-01-02
+
+2016-11-28 Antonio.Salvucci@CERN.ch
+    * Added W+jets HT sliced samples
+    * Tagging LFVUtils-00-01-01
+
+2016-11-04 Antonio.Salvucci@CERN.ch
+    * Added new W+jets samples
+
+2016-08-26 Antonio.Salvucci@CERN.ch
+    * Added Tool tester
+    * Tagging LFVUtils-00-01-00
+
+2016-07-08 Antonio.Salvucci@CERN.ch
+    * Added RPV kfactor
+    * General Optimization
+
+2016-06-08 Antonio.Salvucci@CERN.ch
+    * Added RPV svt samples
+    * Tagging LFVUtils-00-00-16
+
+2016-04-07 Antonio.Salvucci@CERN.ch
+    * Added Normalisations for Sherpa boosted W+jets samples
+    * Tagging LFVUtils-00-00-15
+
+2016-04-06 Antonio.Salvucci@CERN.ch
+    * Added additional ttbar samples for scale syst
+    * Added Sherpa boosted W+jets samples for fake tau estimation
+
+2016-03-09 Antonio.Salvucci@CERN.ch
+    * Added addition Diboson (VV qqll and similar) cross 
+    *       sections and normalisations
+    * Added Z->ee/mumu samples
+    * Implemented overlap removel between Z->ll and DY->ll
+    *       mass binned samples -> in Z->ll all events with 
+    *       true mll>120 GeV are rejected
+    * Tagging LFVUtils-00-00-14
+
+2016-03-01 Antonio.Salvucci@CERN.ch
+    * BugFix in QBH cross sections
+    * Tagging LFVUtils-00-00-13
+
+2016-02-24 Antonio.Salvucci@CERN.ch
+    * Added Diboson mass binned samples
+    * Updated cross sections and kfactors
+    * Fixed issues with truth in HIGG4D2 derivations
+    * Tagging LFVUtils-00-00-12
+
+2015-11-26 Antonio.Salvucci@CERN.ch
+    * Updated cross sections and kfactors
+    * Tagging LFVUtils-00-00-11
+
+2015-11-11 Antonio.Savucci@CERN.ch
+    * Added QBH etau and mutau samples
+    * Tagging LFVUtils-00-00-10
+
+2015-11-11 Antonio.Salvucci@CERN.ch
+    * Added Events=SumOfEventsWeights for normalization
+    * Tagging LFVUtils-00-00-09
+
+2015-11-04 Antonio.Salvucci@CERN.ch
+    * Bug Fix for W+jets Number of events
+    * Tagging LFVUtils-00-00-08
+
+2015-10-16 Antonio.Salvucci@CERN.ch
+    * Fix for ttbar mass-binned samples xsec
+    * Added new QBH signal samples
+    * Tagging LFVUtils-00-00-07
+
+2015-09-29 Antonio.Salvucci@CERN.ch
+    * Added ttbar and Diboson mass binned samples
+    * Added Kfactors for DY (Pythia) samples
+    * Tagging LFVUtils-00-00-06
+
+2015-08-24 Antonio.Salvucci@CERN.ch
+    * Bug fix with Diboson xsec
+    * Tagging LFVUtils-00-00-05
+
+2015-08-17 Antonio.Salvucci@CERN.ch
+    * Checked all samples xsec
+    * Tagging LFVUtils-00-00-04
+
+2015-07-15 Antono.Salvucci@CERN.ch
+    * Added overlap removal between W+jets inclusive and mass binned samples
+    * Tagging LFVUtils-00-00-03
+
+2015-07-14 Antonio.Salvucci@CERN.ch
+    * Added W+jets binned samples xsec and events
+    * Tagging LFVUtils-00-00-02
+
+2015-06-28 Antonio.Salvucci@CERN.ch
+    * Added MCSampleOverlap class:
+    *    provide overlap removal between Z->tautau and DY->tautau
+    * Tagging LFVUtils-00-00-01
+
+2015-06-23 Antonio.Salvucci@CERN.ch
+    * Added LFV Utils to LFV repository
+    * Retrieve xsec, num. events and normalization of MC samples
+    * Tagging LFVUtils-00-00-00
